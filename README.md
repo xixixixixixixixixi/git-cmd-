@@ -29,6 +29,8 @@
 > 首先cd到该文件夹 执行 $ git pull
 8 .本地有所更改提交到仓库
 > 首先cd到该文件夹下  $ git add . $ git  commit -m "11"  $ git push
+9 . 本地提交前 记得更新
+>  $ git pull
 
 #### 三.克隆github仓库
 创建空文件夹  

@@ -13,6 +13,18 @@
 > $ cd ~
 
 #### 二.github上新建一个空仓库，上传本地文件 进行 修改  ，提交， 更新等
+1.创建README.md文件（在本地已有或者新创建文件夹中创建README.md）
+> $ echo "# 1" >> README.md
+2.初始化git
+> $ git init
+3.提交文件
+> $ git add "README.md"或者 git add .
+4.为你提交的文件 进行描述
+> $ git commit -m "提交README.md"
+5.为本地提供github仓库地址
+> $ git remote add origin git@github.com:xixixixixixixixixi/git-cmd.git
+6.进行提交
+> $ push -u origin master
 
 #### 三.克隆github仓库
 创建空文件夹  

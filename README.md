@@ -32,7 +32,7 @@
 > $ git add . 
 > $ git  commit -m "11"  
 > $ git push
-9 . 本地提交前 记得更新
+9. 本地提交前 记得更新
 > $ git pull
 
 #### 三.克隆github仓库
